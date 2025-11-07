@@ -36,7 +36,7 @@ void game() {
     printf("! Let's play a game.\n");
 
     printf("What's your message? ");
-    fgets(message, 100, stdin);
+    fgets(message, 100, stdina);
 
     printf("Your message is ");
     puts(message);
